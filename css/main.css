@@ -9,7 +9,7 @@ body {
 }
 
 .no-scroll {
-	overflow: hidden;
+  overflow: hidden;
 }
 
 .container {
@@ -49,12 +49,12 @@ body {
 
 .list-item a {
   color: black;
-  transition: color 0.2s ease-in ;
+  transition: color 0.2s ease-in;
 }
-.list-item a:hover{
-  color:#01996d;
+.list-item a:hover {
+  color: #01996d;
 }
-.list-item a:active{
+.list-item a:active {
   color: black;
 }
 
@@ -69,12 +69,12 @@ body {
   color: black;
   font-family: "Lato";
   font-size: 20px;
-  transition: color 0.2s ease-in ;
+  transition: color 0.2s ease-in;
 }
-.sign-in-btn:hover{
-  color:#01996d;
+.sign-in-btn:hover {
+  color: #01996d;
 }
-.sign-in-btn:active{
+.sign-in-btn:active {
   color: #000;
 }
 
@@ -88,15 +88,15 @@ body {
   color: white;
   transition: top 0.3s ease-in, color 0.2s ease-in;
 }
-.start-btn:active{
+.start-btn:active {
   position: relative;
-  top:1px;
+  top: 1px;
   color: white;
 }
 
 /*first section*/
 .first-section {
-  background-image: url("./img/MainHeaderIMG.png");
+  background-image: url("./img/main-back.png");
   background-size: cover;
   background-position: center;
   /* min-height: 100vh; */
@@ -366,7 +366,7 @@ body {
   padding-bottom: 74px;
 }
 
-.footer-nav li+li{
+.footer-nav li + li {
   margin-top: 60px;
 }
 
@@ -379,76 +379,75 @@ body {
   color: white;
 }
 
-
 .footer-nav a:hover {
-	opacity: 0.8;
+  opacity: 0.8;
 }
 
 /* mobile nav button */
 .mobile-nav-button {
-	/* Reset for button */
-	cursor: pointer;
-	padding: 0;
-	border: none;
-	background: transparent;
+  /* Reset for button */
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  background: transparent;
 
-	/* Nav icon styles*/
-	position: relative;
-	z-index: 999;
-	width: 40px;
-	height: 30px;
-	/* display: flex; */
-	justify-content: center;
-	align-items: center;
+  /* Nav icon styles*/
+  position: relative;
+  z-index: 999;
+  width: 40px;
+  height: 30px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
 
-    display: none;
+  display: none;
 }
 
 .mobile-nav-button__icon {
-	display: block;
-	position: relative;
-	width: 40px;
-	height: 5px;
-	background-color: #000;
+  display: block;
+  position: relative;
+  width: 40px;
+  height: 5px;
+  background-color: #000;
 }
 
 .mobile-nav-button__icon::after,
 .mobile-nav-button__icon::before {
-	position: absolute;
-	content: '';
-	width: 40px;
-	height: 5px;
-	background-color: #000;
-    /* Трансформация при закрывании */
-	transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 5px;
+  background-color: #000;
+  /* Трансформация при закрывании */
+  transition: transform 0.15s ease-in, top 0.15s ease-in 0.15s;
 }
 
 .mobile-nav-button__icon::before {
-	left: 0;
-	top: -10px;
+  left: 0;
+  top: -10px;
 }
 
 .mobile-nav-button__icon::after {
-	left: 0;
-	top: 10px;
+  left: 0;
+  top: 10px;
 }
 
 .mobile-nav-button__icon.active {
-	background-color: transparent;
+  background-color: transparent;
 }
 
 .mobile-nav-button__icon.active::before {
-	transform: rotate(45deg);
-	top: 0;
-    /* Трансформация при открывании */
-	transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
+  transform: rotate(45deg);
+  top: 0;
+  /* Трансформация при открывании */
+  transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
 }
 
 .mobile-nav-button__icon.active::after {
-	transform: rotate(-45deg);
-	top: 0;
-    /* Трансформация при открывании */
-	transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
+  transform: rotate(-45deg);
+  top: 0;
+  /* Трансформация при открывании */
+  transition: top 0.15s linear, transform 0.15s ease-in 0.15s;
 }
 
 /* mobile nav */
@@ -479,11 +478,11 @@ body {
 .mobile-nav-list {
   font-size: 22px;
 }
-.mobile-nav a{
-  color:#424242;
+.mobile-nav a {
+  color: #424242;
 }
 
-.btn.btn-big{
+.btn.btn-big {
   color: white;
 }
 
