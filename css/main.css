@@ -96,7 +96,7 @@ body {
 
 /*first section*/
 .first-section {
-  background-image: url("/img/main-back.jpg");
+  background-image: url("../img/main-back.jpg");
   background-size: cover;
   background-position: center;
   /* min-height: 100vh; */
