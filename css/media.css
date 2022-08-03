@@ -1,0 +1,93 @@
+@media (max-width: 1345px){
+  .how-it-works {
+    padding: 60px 0 35px;
+  }
+
+  .desc-heading {
+    margin-right: 40px;
+  }
+
+  .desc-heading h3{
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 1120px){
+  .header-nav, .header-buttons{
+    display: none;
+  }
+  .header-row{
+    justify-content: space-between;
+  }
+
+  .mobile-nav-button {
+    display: flex;
+}
+
+  .first-section{
+    padding: 40px 0;
+  }
+
+  .fs-heading{
+    font-size: 45px;
+		line-height: 1.2;
+  }
+  .fs-text{
+    margin-top: 20px;
+    line-height: 1;
+  }
+
+  .fs-btn{
+    margin-top: 20px;
+  }
+
+  .hiw-descriprion{
+    flex-direction: column;
+    margin-bottom: 25px;
+  }
+
+  .desc-heading{
+    margin-bottom: 20px;
+  }
+
+  .hiw-steps{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .step:nth-child(2),
+  .step:nth-child(3){
+    padding-top: 0;
+  }
+
+  .story{
+    padding: 100px 0 50px;
+  }
+  .story-row{
+    flex-direction: column-reverse;
+  }
+  .story-heading{
+    font-size: 30px;
+  }
+  .story-text{
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .story-video{
+    margin-bottom: 20px;
+  }
+
+  .our-product{
+    padding: 50px 0 75px;
+  }
+  .op-row{
+    flex-direction: column;
+    align-items: center;
+  }
+  .op-content-title{
+    font-size: 30px;
+  }
+  .card-img{
+    width: 50%;
+  }
+}
